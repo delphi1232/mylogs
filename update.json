@@ -1,22 +1,36 @@
 {
-  "status": "ok",
-  "project": "MyApp",
-  "last_update": "2025-08-29T17:30:00Z",
-  "logs": [
+  "updates": [
     {
-      "time": "2025-08-29T10:15:00Z",
-      "event": "Added new code",
-      "details": "Implemented new feature in the main module"
+      "id": 1,
+      "description": "Added Motorola flashing support including bootloader unlock, partition flashing, and improved device detection"
     },
     {
-      "time": "2025-08-29T12:00:00Z",
-      "event": "Rewrite the whole code",
-      "details": "Refactored the core logic to improve maintainability and performance"
+      "id": 2,
+      "description": "Integrated SPD PAC file parser and extractor with full partition listing, CRC check, and file export functionality"
     },
     {
-      "time": "2025-08-29T14:30:00Z",
-      "event": "Much more improvements",
-      "details": "Optimized file handling, fixed bugs, and improved UI responsiveness"
+      "id": 3,
+      "description": "Implemented Nokia NBO file extractor with structured unpacking, directory tree parsing, and secure extraction options"
+    },
+    {
+      "id": 4,
+      "description": "Added SPD diagnostic function for reading device information, NV data, IMEI repair, and advanced troubleshooting"
+    },
+    {
+      "id": 5,
+      "description": "Optimized user interface with progress bars, detailed logging, and error handling improvements"
+    },
+    {
+      "id": 6,
+      "description": "Enhanced fastboot command support with custom OEM operations, slot management, and secure flashing bypass options"
+    },
+    {
+      "id": 7,
+      "description": "Improved stability with multithreading support to prevent UI freezing during large file operations"
+    },
+    {
+      "id": 8,
+      "description": "Extended PAC firmware validation to include partition size checks, signature verification, and compatibility mode"
     }
   ]
 }
