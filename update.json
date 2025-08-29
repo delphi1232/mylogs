@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "project": "MyApp",
+  "last_update": "2025-08-29T17:30:00Z",
+  "logs": [
+    {
+      "time": "2025-08-29T10:15:00Z",
+      "event": "Added new code",
+      "details": "Implemented new feature in the main module"
+    },
+    {
+      "time": "2025-08-29T12:00:00Z",
+      "event": "Rewrite the whole code",
+      "details": "Refactored the core logic to improve maintainability and performance"
+    },
+    {
+      "time": "2025-08-29T14:30:00Z",
+      "event": "Much more improvements",
+      "details": "Optimized file handling, fixed bugs, and improved UI responsiveness"
+    }
+  ]
+}
