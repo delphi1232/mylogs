@@ -2,35 +2,43 @@
   "updates": [
     {
       "id": 1,
-      "description": "Added Motorola flashing support including bootloader unlock, partition flashing, and improved device detection"
+      "icon": "🔧",
+      "description": "Motorola flashing with bootloader unlock, partition write, and auto-detect"
     },
     {
       "id": 2,
-      "description": "Integrated SPD PAC file parser and extractor with full partition listing, CRC check, and file export functionality"
+      "icon": "📦",
+      "description": "SPD PAC parser with partition list, CRC check, and file export"
     },
     {
       "id": 3,
-      "description": "Implemented Nokia NBO file extractor with structured unpacking, directory tree parsing, and secure extraction options"
+      "icon": "📂",
+      "description": "Nokia NBO extractor with tree view and safe file output"
     },
     {
       "id": 4,
-      "description": "Added SPD diagnostic function for reading device information, NV data, IMEI repair, and advanced troubleshooting"
+      "icon": "🩺",
+      "description": "SPD diag tools for info read, NV data, IMEI fix, and troubleshoot"
     },
     {
       "id": 5,
-      "description": "Optimized user interface with progress bars, detailed logging, and error handling improvements"
+      "icon": "🎛️",
+      "description": "UI update with progress bars, better logs, and error control"
     },
     {
       "id": 6,
-      "description": "Enhanced fastboot command support with custom OEM operations, slot management, and secure flashing bypass options"
+      "icon": "⚡",
+      "description": "Fastboot OEM commands, slot control, and flash bypass"
     },
     {
       "id": 7,
-      "description": "Improved stability with multithreading support to prevent UI freezing during large file operations"
+      "icon": "🧵",
+      "description": "Multithread support to stop UI freeze on big files"
     },
     {
       "id": 8,
-      "description": "Extended PAC firmware validation to include partition size checks, signature verification, and compatibility mode"
+      "icon": "✅",
+      "description": "PAC check with partition size, signature, and compatibility"
     }
   ]
 }
