@@ -1,44 +1,17 @@
 {
-  "updates": [
-    {
-      "id": 1,
-      "icon": "🔧",
-      "description": "Motorola flashing with bootloader unlock, partition write, and auto-detect"
-    },
-    {
-      "id": 2,
-      "icon": "📦",
-      "description": "SPD PAC parser with partition list, CRC check, and file export"
-    },
-    {
-      "id": 3,
-      "icon": "📂",
-      "description": "Nokia NBO extractor with tree view and safe file output"
-    },
-    {
-      "id": 4,
-      "icon": "🩺",
-      "description": "SPD diag tools for info read, NV data, IMEI fix, and troubleshoot"
-    },
-    {
-      "id": 5,
-      "icon": "🎛️",
-      "description": "UI update with progress bars, better logs, and error control"
-    },
-    {
-      "id": 6,
-      "icon": "⚡",
-      "description": "Fastboot OEM commands, slot control, and flash bypass"
-    },
-    {
-      "id": 7,
-      "icon": "🧵",
-      "description": "Multithread support to stop UI freeze on big files"
-    },
-    {
-      "id": 8,
-      "icon": "✅",
-      "description": "PAC check with partition size, signature, and compatibility"
-    }
-  ]
+  "tool":"GSMXTEAM Tool",
+  "version":"V1.0 (BETA)",
+  "last_update":"2025-11-01T14:56:00+05:30",
+  "release_id":"GSMXTEAM-V1.0-BETA-20251101-1456",
+  "changes":[
+    {"module":"motorola","type":"feature","summary":"Bootloader unlock, partition write, auto-detect","notes":"Auto-detect reports model & bootloader state; admin mode bypasses prompts"},
+    {"module":"spd_pac_parser","type":"feature","summary":"Partition list, CRC check, export","notes":"Validates partition sizes and CRC before export; halts on failed CRC"},
+    {"module":"nokia_nbo_extractor","type":"feature","summary":"Tree view extractor with safe output","notes":"Prevents overwrites; preserves timestamps"},
+    {"module":"spd_diag","type":"feature","summary":"Info read, NV operations, IMEI fix","notes":"Auto-backup created for NV writes; partial reads trigger retries"},
+    {"module":"ui","type":"improvement","summary":"Progress bars, richer logs, error control","notes":"Default log level INFO; DEBUG optional"},
+    {"module":"fastboot","type":"improvement","summary":"OEM commands, slot control, flash bypass","notes":"Reports slot & response codes"},
+    {"module":"threading","type":"improvement","summary":"Multithread support to avoid UI freeze","notes":"Configurable worker threads & queue"},
+    {"module":"pac_check","type":"improvement","summary":"Partition size, signature, compatibility checks","notes":"Shows compatibility score; low-confidence requires manual confirmation"}
+  ],
+  "notes":"Beta release — report regressions. Always backup NV/data before writes."
 }
